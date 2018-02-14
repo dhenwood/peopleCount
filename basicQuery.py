@@ -13,7 +13,7 @@ authToken = authTokenBytes.decode('utf-8')
 
 
 def getPeopleCount():
-
+    #replace following line with FQDN or IP address of endpoint
     fqdnEndpoint = "roomkit.example.com"
     url = "http://%s/status.xml" % fqdnEndpoint
 
